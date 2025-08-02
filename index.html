@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indian Special Forces</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero-section">
+  <h1> SPECIAL FORCES of INDIA </h1>
+</header>
+
+<main class="card-section">
+  <div class="card-container">
+    <!-- PARA SF -->
+    <div class="force-card" data-force="para">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Indian_Parachute_Regiment_Insignia_and_PARA_%28SF%29_Battalion_Insignia.jpg/500px-Indian_Parachute_Regiment_Insignia_and_PARA_%28SF%29_Battalion_Insignia.jpg" alt="PARA SF">
+      <h2>PARA SF</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+
+    <!-- SFF -->
+    <div class="force-card" data-force="sff">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/SFF_badge.jpg/250px-SFF_badge.jpg" alt="SFF">
+      <h2>SPECIAL FRONTIER FORCE</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+
+    <!-- NSG -->
+    <div class="force-card" data-force="nsg">
+      <img src="https://www.defenceguru.co.in/DF/Admin/pages/Gallery/sag-nsg-badges.jpg" alt="NSG">
+      <h2>NSG COMMANDO</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+
+    <!-- GHATAK -->
+    <div class="force-card" data-force="ghatak">
+      <img src="https://deltatac.shop/cdn/shop/files/Patch_Ghatakplatoon_6september2024.jpg?v=1726050757" alt="GHATAK">
+      <h2>GHATAK COMMANDO</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+
+    <!-- GARUD -->
+    <div class="force-card" data-force="garud">
+      <img src="https://onlinearmystore.in/wp-content/uploads/2024/07/GARUD-CAMMANDO-FORCE-BADGE-RUBBER.png" alt="GARUD">
+      <h2>GARUD COMMANDO</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+
+    <!-- MARCOS -->
+    <div class="force-card" data-force="marcos">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtlrEIHOjk4A0uKlyRh6dm1cg21aRdTOvfcg&s" alt="MARCOS">
+      <h2>MARCOS NAVY SEALS</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+
+    <!-- BSF -->
+    <div class="force-card" data-force="bsf">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/VM/UF/JN/30752612/bsf-metal-logo.jpg" alt="BSF">
+      <h2>BORDER SECURITY FORCE</h2>
+      <div class="buttons">
+        <button class="know-more">Know More</button>
+        <button class="view-rank">Rank</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Know More Modal -->
+  <div id="knowMoreModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" data-close="knowMoreModal">&times;</span>
+      <div id="knowMoreContent"></div>
+    </div>
+  </div>
+
+  <!-- Rank Modal -->
+  <div id="rankModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" data-close="rankModal">&times;</span>
+      <div id="rankContent"></div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+
+<section id="force-counts" class="force-counts-section">
+  <h2>🇮🇳 Special Forces Strength (Estimated)</h2>
+  <div class="force-counts-container">
+<div class="count-box">
+  <h3>
+    PARA SF
+    <span class="badge army">Army</span>
+  </h3>
+  <p class="counter" data-target="7000">0</p>
+</div>
+
+<div class="count-box">
+  <h3>
+    MARCOS
+    <span class="badge navy">Navy</span>
+  </h3>
+  <p class="counter" data-target="2000">0</p>
+</div>
+
+<div class="count-box">
+  <h3>
+    GARUD
+    <span class="badge airforce">Air Force</span>
+  </h3>
+  <p class="counter" data-target="2000">0</p>
+</div>
+
+<div class="count-box">
+  <h3>
+    Ghatak Platoons
+    <span class="badge army">Army</span>
+  </h3>
+  <p class="counter" data-target="20000">0</p>
+</div>
+
+<div class="count-box">
+  <h3>
+    SFF
+    <span class="badge covert">RAW</span>
+  </h3>
+  <p class="counter" data-target="4000">0</p>
+</div>
+
+<div class="count-box">
+  <h3>
+    NSG
+    <span class="badge hybrid">Army + CAPF</span>
+  </h3>
+  <p class="counter" data-target="2000">0</p>
+</div>
+
+<div class="count-box">
+  <h3>
+    BSF
+    <span class="badge hybrid"> CAPF</span>
+  </h3>
+  <p class="counter" data-target=" 265000">0</p>
+</div>
+
+
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
